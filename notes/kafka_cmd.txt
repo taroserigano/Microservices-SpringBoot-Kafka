@@ -36,5 +36,29 @@ topic demo
 
 
 
+order 8080 
 
+---------------
+
+stock 8081 
+
+email: 9092 
+
+
+
+ORDER SERVICE 
+
+1. Run Zookeeper and Kafka before running ORDER 
+2. Send Order event to Kafka,  
+3. Conver this Order Event into JSON, use JSON Serializer 
+4. set TOPIC 
+
+
+
+
+
+
+
+
+ 
 
